@@ -48,10 +48,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hello! My name is <span>Sachin Patel</span> and I enjoy creating
-            things that live on the internet.
-            <br />I am a creative problem solver who loves to create and is
-            always trying new things.
+            Hello! My name is <span>Sachin Patel</span>. Passionate Full Stack
+            Web Developer with skills in the MERN stack, I have learned Full
+            Stack Web Development in Masai school.
+            <br /> Skilled in problem- solving and execution of software tasks
+            from start to finish. I look forward to joining a company where I
+            can contribute to individual and company growth..
           </p>
         </div>
       </div>

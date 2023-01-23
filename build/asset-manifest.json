@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.85005ae7.css",
-    "main.js": "./static/js/main.b43e8313.js",
+    "main.css": "./static/css/main.89a975fc.css",
+    "main.js": "./static/js/main.0cdd0450.js",
     "static/media/Nykaa.png": "./static/media/Nykaa.e1a9e62fd52549665bd7.png",
     "static/media/Nordstorm.png": "./static/media/Nordstorm.65cfd16cfc69c8d78c55.png",
     "static/media/banner-bg.png": "./static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/Millap.png": "./static/media/Millap.014019001363c6096cd5.png",
     "static/media/bgTexturn2.png": "./static/media/bgTexturn2.8a1abc775dec4ce9e1d1.png",
-    "static/media/me2.jpeg": "./static/media/me2.be3a50a019c6639168b6.jpeg",
+    "static/media/me2.jpeg": "./static/media/me2.1673a775327052cb1edf.jpeg",
     "index.html": "./index.html",
-    "main.85005ae7.css.map": "./static/css/main.85005ae7.css.map",
-    "main.b43e8313.js.map": "./static/js/main.b43e8313.js.map"
+    "main.89a975fc.css.map": "./static/css/main.89a975fc.css.map",
+    "main.0cdd0450.js.map": "./static/js/main.0cdd0450.js.map"
   },
   "entrypoints": [
-    "static/css/main.85005ae7.css",
-    "static/js/main.b43e8313.js"
+    "static/css/main.89a975fc.css",
+    "static/js/main.0cdd0450.js"
   ]
 }

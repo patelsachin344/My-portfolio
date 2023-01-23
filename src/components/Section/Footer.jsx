@@ -1,9 +1,11 @@
 import React from "react";
 import "../../styles/Footer.css";
 
-import { FaFacebookSquare, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { SiLinktree } from "react-icons/si";
 import { IoMdRocket } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
+import { BsEnvelope } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -40,11 +42,11 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href={"https://www.instagram.com/patelsachin71344/"}
+            href={"mailto:sachinpatel7038@gmail.com"}
             target="_blank"
             rel="noreferrer"
           >
-            <FaInstagram />
+            <BsEnvelope />
           </a>
           {/* <a
             href={"https://twitter.com/twxey_"}
@@ -54,17 +56,13 @@ const Footer = () => {
             <FaTwitter />
           </a> */}
           <a
-            href={"https://www.facebook.com/patelsachin71344"}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaFacebookSquare />
-          </a>
-          <a
             href={"https://www.linkedin.com/in/pasachin/"}
             target="_blank"
             rel="noreferrer"
           >
+            <BsLinkedin />
+          </a>
+          <a href={"/#"} rel="noreferrer">
             <SiLinktree />
           </a>
         </div>

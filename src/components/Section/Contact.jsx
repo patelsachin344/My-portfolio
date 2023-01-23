@@ -4,7 +4,7 @@ import "../../styles/Contact.css";
 
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import { BsSnapchat } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 const Contact = () => {
   const Expire = (props) => {
@@ -68,21 +68,21 @@ const Contact = () => {
             <AiOutlineLinkedin className="contact_icons" />
             <h4>Linkedin</h4>
             <h5>pasachin</h5>
-            <a href={"sachin.com"} target="_blank" rel="noreferrer">
-              Send a message
-            </a>
-          </article>
-
-          <article className="contact_option">
-            <BsSnapchat className="contact_icons" />
-            <h4>Snapchat</h4>
-            <h5>sachin.snapchat</h5>
             <a
               href={"https://www.linkedin.com/in/pasachin/"}
               target="_blank"
               rel="noreferrer"
             >
               Send a message
+            </a>
+          </article>
+
+          <article className="contact_option">
+            <BsFillTelephoneFill className="contact_icons" />
+            <h4>Phone</h4>
+            <h5>7860071344</h5>
+            <a href={"tel://+7860071344"} target="_blank" rel="noreferrer">
+              Call Me
             </a>
           </article>
         </div>

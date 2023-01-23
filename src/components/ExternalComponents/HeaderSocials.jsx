@@ -3,7 +3,7 @@ import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+// import { BsInstagram } from "react-icons/bs";
 // import { BsTwitter } from "react-icons/bs";
 
 const HeaderSocials = () => {
@@ -24,13 +24,13 @@ const HeaderSocials = () => {
         >
           <BsLinkedin />
         </a>
-        <a
+        {/* <a
           href={"https://www.instagram.com/patelsachin71344/"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <BsInstagram />
-        </a>
+        </a> */}
         {/* <a
           href={"https://twitter.com/uwu_losier"}
           target="_blank"

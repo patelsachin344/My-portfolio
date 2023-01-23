@@ -4,7 +4,7 @@ const CTA = () => {
   return (
     <div className="cta">
       <a
-        href="https://drive.google.com/file/d/1MbaIlUfDdIvEs0ZUDSZEFooN9NMpuX6F/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Sx-ANh__AJSkSOMEK_JAcqK6MCw9dwgG/view?usp=sharing"
         // onClick={() => {
         //   Notification.requestPermission().then((perm) => {
         //     if (perm === "granted") {
