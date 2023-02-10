@@ -9,37 +9,11 @@ const Nav = ({ inView }) => {
     setActiveNav(inView);
   }, [inView]);
 
-  // const [showNav, setShowNav] = useState(() => null);
-
-  // useEffect(() => {
-  //   let lastScrollPosition = 0;
-  //   setShowNav(true);
-  //   document.addEventListener(
-  //     "scroll",
-  //     function (e) {
-  //       if (window.scrollY > lastScrollPosition) {
-  //         setShowNav(false);
-  //       } else {
-  //         setShowNav(true);
-  //       }
-  //       lastScrollPosition = window.scrollY;
-  //     },
-  //     {
-  //       passive: true,
-  //     }
-  //   );
-  // }, []);
-
   return (
-    <nav
-    // style={{
-    //   opacity: showNav ? 1 : 0,
-    //   top: showNav ? 0 : "-100px",
-    // }}
-    >
-      <div className="nav-text">
+    <nav>
+      <a href={"/#"} className="nav-text">
         <img src={logo} alt="navlogo" />
-      </div>
+      </a>
 
       <ul className="nav-links">
         <input type="checkbox" id="checkbox_toggle" />
@@ -74,7 +48,7 @@ const Nav = ({ inView }) => {
               onClick={() => setActiveNav("#experience")}
               className={activeNav === "#experience" ? "active" : ""}
             >
-              Experience
+              Skills
             </a>
           </li>
 

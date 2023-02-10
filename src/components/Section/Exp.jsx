@@ -80,14 +80,6 @@ const Exp = () => {
               </div>
             </article>
 
-            {/* <article className="experience_details">
-              <BsPatchCheck className="experience_details-icons" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article> */}
-
             <article className="experience_details">
               <BsPatchCheck className="experience_details-icons" />
               <div>
@@ -95,22 +87,6 @@ const Exp = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-
-            {/* <article className="experience_details">
-              <BsPatchCheck className="experience_details-icons" />
-              <div>
-                <h4>Postman</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience_details">
-              <BsPatchCheck className="experience_details-icons" />
-              <div>
-                <h4>Heroku</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article> */}
           </div>
         </div>
       </div>

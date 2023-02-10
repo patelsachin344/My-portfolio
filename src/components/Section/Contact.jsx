@@ -67,7 +67,7 @@ const Contact = () => {
           <article className="contact_option">
             <AiOutlineLinkedin className="contact_icons" />
             <h4>Linkedin</h4>
-            <h5>pasachin</h5>
+            {/* <h5>pasachin</h5> */}
             <a
               href={"https://www.linkedin.com/in/pasachin/"}
               target="_blank"

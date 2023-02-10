@@ -1,10 +1,8 @@
 import React from "react";
 import "../../styles/About.css";
-
 import { FaAward } from "react-icons/fa";
 import { BsFolder } from "react-icons/bs";
 import { BsStar } from "react-icons/bs";
-
 var ProjectNumber;
 
 fetch("https://api.github.com/users/patelsachin344")
@@ -20,13 +18,10 @@ const About = () => {
   return (
     <section id="about">
       <h2>About Me</h2>
-
       <div className="container about_container">
         <div className="me image-card">
           <img src={require("../../assets/Pics/me2.jpeg")} alt="me" />
         </div>
-        {/* </div> */}
-
         <div className="about_content">
           <div className="about_card">
             <article className="about_card-content">

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import About from "./Section/About";
 import Contact from "./Section/Contact";
 import Exp from "./Section/Exp";
@@ -7,10 +6,7 @@ import Footer from "./Section/Footer";
 import Header from "./Section/Header";
 import Nav from "./Section/Nav";
 import GithubRepo from "./Section/GithubRepo";
-
 import PreLoader from "./PreLoader";
-// import DotRing from "./DotRing";
-
 const HomePage = (props) => {
   const [inView, setInView] = useState("");
   const [section] = useState(props.section);
@@ -22,7 +18,6 @@ const HomePage = (props) => {
 
   return (
     <>
-      {/* <DotRing /> */}
       <Nav inView={inView} />
       <Header setInView={setInView} />
       <About setInView={setInView} />
