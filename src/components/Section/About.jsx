@@ -22,6 +22,7 @@ const About = () => {
         <div className="me image-card">
           <img src={require("../../assets/Pics/me2.jpeg")} alt="me" />
         </div>
+
         <div className="about_content">
           <div className="about_card">
             <article className="about_card-content">
@@ -42,13 +43,16 @@ const About = () => {
               <small>1+</small>
             </article>
           </div>
+
           <p>
-            Hello! My name is <span>Sachin Patel</span>. Passionate Full Stack
-            Web Developer with skills in the MERN stack, I have learned Full
-            Stack Web Development in Masai school.
-            <br /> Skilled in problem- solving and execution of software tasks
-            from start to finish. I look forward to joining a company where I
-            can contribute to individual and company growth..
+            Hello! My name is <span>Sachin Patel</span>. I am passionate about
+            solving Algorithmic problems with a good hold on Data Structures and
+            Full Stack Web Developer who is proficient with the MERN stack and
+            good at user-centric solutions. I am a quick learner and
+            Collaborative, team player and proficient in working with
+            interdisciplinary teams and executing goal-oriented projects.
+            Strongly interested in obtaining a Software Developer position to
+            work on enhancing the product experience.
           </p>
         </div>
       </div>

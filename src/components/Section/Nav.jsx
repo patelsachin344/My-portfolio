@@ -71,16 +71,6 @@ const Nav = ({ inView }) => {
               Contact
             </a>
           </li>
-
-          {/* <span>
-            <a
-              href={() => false}
-              onClick={() => alert("Coming Soon...")}
-              className="nav_btn"
-            >
-              Resume
-            </a>
-          </span> */}
         </div>
       </ul>
     </nav>

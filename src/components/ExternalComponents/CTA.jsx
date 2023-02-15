@@ -12,7 +12,7 @@ const CTA = () => {
         Download Resume
       </a>
       <a href={"#contact"} className="btn">
-        Say, Hello...
+        Say, Hello 👋
       </a>
     </div>
   );

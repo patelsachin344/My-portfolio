@@ -10,17 +10,11 @@ const Header = () => {
     <header>
       <div className="container header_container">
         <div className="header_text">
-          <h3>Hi, my name is</h3>
+          <h3>Hi 👋 I'm</h3>
           <TypingEffect />
-          <span>
-            I am a passionate Full Stack Web Developer who focus on writing
-            clean and user friendly applications.
-          </span>
-
-          <p></p>
+          <span>I am a passionate Full Stack Web Developer .</span>
           <CTA />
         </div>
-
         <HeaderSocials />
       </div>
     </header>
