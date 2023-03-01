@@ -12,7 +12,11 @@ const Header = () => {
         <div className="header_text">
           <h3>Hi 👋 I'm</h3>
           <TypingEffect />
-          <span>I am a passionate Full Stack Web Developer .</span>
+          <span>
+            An enthusiastic Full stack Web Developer with a strong set of
+            technical as well as non-technical skills and a dedication towards
+            creating useful and interactive web applications.
+          </span>
           <CTA />
         </div>
         <HeaderSocials />

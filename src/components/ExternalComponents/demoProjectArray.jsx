@@ -7,11 +7,12 @@ export const data = [
     id: 1,
     image: img1,
     title: "NordSrome",
-    github: "https://github.com/patelsachin344/Nordstrome-clone",
-    demo: "https://clone-nordstrom.netlify.app/",
-    teckStacks: "React | Redux | Chakra Ui | Third-Party Libraries",
+    github: "https://github.com/patelsachin344/Nordstrome-FullStack",
+    demo: "https://nordstrome-full-stack.netlify.app/",
+    teckStacks:
+      "React | Redux | Chakra Ui | Third-Party Libraries | Node | MongoDB | Express | JWT",
     about:
-      "This is an E-Commerce website which speciaizes in selling clothes and styling products. The website provides 800 brands and 33,000 products of different types of clothes, watches, sunglasses, shoes etc.",
+      "This is solo project.This is an E-Commerce website which speciaizes in selling clothes and styling products. The website provides 800 brands and 33,000 products of different types of clothes, watches, sunglasses, shoes etc.",
   },
   {
     id: 2,

@@ -4,7 +4,7 @@ header {
 }
 
 .header_text {
-  margin-top: 5%;
+  margin-top: 10%;
   padding: 0;
   /* margin-bottom: 5%; */
 }
@@ -116,18 +116,17 @@ header {
     height: 80vh;
   }
 
-  /* .header_text {
-    margin-top: 20%;
-  } */
-  /* 
+  .header_text {
+    margin-top: 15%;
+  }
+
   .header_text h1 {
-    font-size: 60px;
-  } */
-  /* 
+    font-size: 40px;
+  }
+
   .header_text span {
-    font-size: 3rem;
-    line-height: normal;
-  } */
+    font-size: 1.5rem;
+  }
 
   .header_socials,
   .mail-container {
